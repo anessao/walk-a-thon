@@ -1,7 +1,14 @@
 body {
-	/*background-color: #d4c8c8;*/
+	/*background-color: #d4c8c8; */
 }
 footer {
 	position: absolute;
 	bottom: 20px;
+}
+.warning {
+	text-align: center;
+	padding: 5px;
+	background-color: red;
+	font-weight: bolder;
+	color: white;
 }
