@@ -17,24 +17,24 @@ var DonorInfo = (function(){
 			}
 			ticketString += `</tbody>`
 			ticketTable.innerHTML = ticketString;
-			console.log(ticketString);
 
 			return donors;
 		},
 		addDonor: function(){
-				donors.push({name: "", pledge:"", amountType:""});
+				donors.push({name: "", pledge:"", amountType:"", email:""});
 		},
 		setDonor: function(info){
 			var donorsIndex = donors.length - 1;
 			for (var x = 0; x < info.length; x++) {
 				if (info[x].id === "name" && info[x].value !== '') {
 					donors[donorsIndex].name = info[x].value;
+				} if (info[x].id === "email" && info[x].value !== '') {
+					donors[donorsIndex].email = info[x].value;
 				} if(info[x].id === "amount" && info[x].value !== ''){
 					donors[donorsIndex].pledge = info[x].value;
 				} if(info[x].checked === true){
 					donors[donorsIndex].amountType = info[x].value;
-				} else if(info[x].value === ''){
-					warning.innerHTML = `<div class="warning">Please fill in all fields</div>`
+					console.log(info);
 				}
 			}
 		}
