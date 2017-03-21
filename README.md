@@ -55,9 +55,6 @@ On top of these styling requirements, feel free to apply any of your own persona
 4. http-server -p 8080
 ```
 
-#### SCREENSHOT
-![Screenshot](https://raw.githubusercontent.com/anessao/seasonal-sales/jsonItems/Screen%20Shot%202017-03-20%20at%209.17.02%20PM.png)
-
 #### TECHNOLOGIES USED
 - JavaScript
 - HTML
