@@ -1,7 +1,7 @@
-#NSS ASSIGNMENT | Walk-a-Thon!
-####Retrieving information and displaying information using IIFE notation and bootstrap styling.
+# NSS ASSIGNMENT | Walk-a-Thon!
+#### Retrieving information and displaying information using IIFE notation and bootstrap styling.
 
-##ASSIGNMENT DETAILS
+## ASSIGNMENT DETAILS
 1. My project will display:
 	- A form for user submissions
 	- The ability to select whether the submission is per lap or a single amount
@@ -44,7 +44,7 @@ For display on the page, use [Bootstrap](https://getbootstrap.com) to style the 
 
 On top of these styling requirements, feel free to apply any of your own personal styling via your own CSS or Bootstraps myriad styling effects to enhance the display style and usability of your page.
 
-##SCREENSHOT
+## SCREENSHOT
 ![Screenshot](https://raw.githubusercontent.com/anessao/walk-a-thon/working/Screen%20Shot%202017-03-20%20at%209.21.12%20PM.png)
 
 #### HOW TO RUN CODE
